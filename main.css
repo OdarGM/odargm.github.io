@@ -1,18 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
 }
 
 body{
-     background: #3aafa9;
-     background-size: cover;
+    background-color: #3aafa9;
+    background-size: cover;
+}
+
+.logo{
+    height: 60;
 }
 
 .navbar{
     height: 80px;
     background-color: #17252A;
-    overflow: hidden;
 }
 
 .logo{
@@ -21,7 +23,6 @@ body{
 
 .menu{
     float: right;
-    list-style: none;
     margin: 20px;
     color: #17252A;
 }
@@ -36,441 +37,206 @@ body{
     font-size: 17px;
 }
 
-.drp-down {
-    float: right;
-    overflow: hidden;
-}
 
-.dropxd {
-    background-color: #17252A;
-    color: #2b7a78;
-    padding: 10px 15px;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    margin: 0;
-    outline: none;
-    position: relative;
-}
-
-.drp-down-cnt {
-    display: none;
-    position: absolute;
-    background-color: #17252A;
-    z-index: 1;
-}
-
-.drp-down-cnt a {
-    color: #2b7a78;
-    padding: 10px 2px;
-    text-decoration: none;
-    display: block;
-    float: left;
-    font-size: 15.5px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.drp-down-cnt a:hover {
-    background-color: #17252A;
-}
-
-.drp-down:hover .drp-down-cnt {
-    position: fixed;
-    display: inline;
-}
-
-.index-head{
-    top: 50px;
+header{
     text-align: center;
-    border: 2px solid #3aafa9;
-    background-color: #3aafa9;
-}
-
-.index-head h1{
     color: #17252A;
-    font-size: 5rem;
 }
 
-.index-head p{
-    color: #2b7a78;
+header h1 span{
     font-size: 3rem;
+    border: 4px dashed #2b7a78;
+    padding: 10px;
+
 }
 
-.index-head h2{
-    color: #17252A;
-    font-size: 4rem;
-}
-
-.index-head h3{
-    color: #2b7a78;
+header h2 {
     font-size: 2.5rem;
 }
 
-.index-head h3 a{
-    text-decoration: none;
-    color: #2b7a78;
-    cursor: text;
-}
-
-.index-head h4{
+.langs{
     text-align: center;
-    font-size: 2.4rem;
-    color: #2b7a78;
+    top: 10px;
 }
 
-.index-head h4 a{
-    color: #17252A;
-    text-decoration: none;
-}
-
-.works h1{
-    color: #17252A;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.works h3{
-    text-align: center;
+.langs h1 span{
     font-size: 2.7rem;
-    color: #2b7a78;
+    border: 4px dashed #2b7a78;
+    padding: 10px
 }
 
-.works h3 a{
+.langs li{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.langs progress{
+    width: 70%;
+    height: 20px;
+    color: #2b7a78;
+    background: #17252A;
+}
+
+.langs progress::-webkit-progress-bar{
+    background: #17252A;
+}
+
+.langs progress::-webkit-progress-value{
+    background: #2b7a78;
+}
+
+.langs progress::-moz-progress-bar{
+    color: #2b7a78;
+    background: #17252A;
+}
+
+.links{
+    text-align: center;
+    top: 10px;
+}
+
+.links h1{
     color: #17252A;
+    font-size: 2rem;
+}
+
+.links li{
+    display: inline-block;
+    border: 2px solid #2b7a78;
+    background-color: #17252A;
+    margin: 15px 5px;
+}
+
+.links li a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #def2f1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+}
+
+.projs{
+    text-align: center;
+    top: 10px;
+}
+
+.projs h1 span{
+    border: 4px dashed #2b7a78;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.projs h3{
+    color: #17252A;
+    font-size: 2.3rem;
+}
+
+.projs h3 a{
+    color: #def2f1;
+    text-decoration: none;
+}
+.projs h4{
+    color: #17252A;
+    font-size: 2.1rem;
+}
+.projs h5{
+    color: #17252A;
+    font-size: 1.5rem;
+}
+
+.projs h5 a{
+    color: #def2f1;
     text-decoration: none;
 }
 
-.works h2{
-    color: #2b7a78;
+.inv{
+    text-align: center;
     font-size: 2.5rem;
+}
+
+.inv a{
+    text-decoration: none;
+    color: #3aafa9;
+    border: 2px solid #def2f1;
+    background-color: #def2f1;
+    padding: 10px;
+    font-size: 2.4rem;
+}
+
+.inv a:hover{
+    text-decoration: none;
+    color: #3aafa9;
+    text-shadow: 2px 2px #17252A;
+}
+
+.join{
+    text-align: center;
+    top: 10px;
+}
+
+.join h1{
+    color: #17252A;
+}
+
+.join h1 span{
+    font-size: 2.7rem;
+    border: 4px dashed #2b7a78;
+    padding: 10px;
+}
+
+.join h3{
+    color: #17252A;
+    font-size: 2.5rem;
+}
+
+.join h3 a{
+    text-decoration: none;
+    color: #2b7a78;
+}
+
+.serv{
+    top: 10px;
     text-align: center;
 }
+
+.serv h1{
+    font-size: 2.4rem;
+}
+
+.serv h1 span{
+    border: 4px dashed #2b7a78;
+    font-size: 2.6rem;
+    padding: 10px;
+}
+
+.serv h3{
+    color: #17252A;
+    font-size: 2.3rem;
+}
+
+.serv h3 a{
+    color: #def2f1;
+    text-decoration: none;
+}
+
+.serv h4{
+    color: #17252A;
+    font-size: 2.2rem;
+}
+
+.serv h4 a{
+    color: #2b7a78;
+    text-decoration: none;
+}
+
 
 footer{
     text-align: center;
     color: #17252A;
 }
 
-.contact{
-    text-align: center;
-}
-
-.contact h2{
-    color: #17252A;
-    font-size: 3rem;
-}
-
-.contact h4{
-    color: #2b7a78;
-    font-size: 2.7rem
-}
-
-.contact h4 a{
-    color: #17252A;
-    text-decoration: none;
-}
-.contact li{
-    display: inline-block;
-    margin: 15px 5px;
-    border: 2px solid #2b7a78;
-    background-color: #17252A;
-}
-
-.contact li:hover{
-    background-color: #2b7a78;
-    border: 2px solid #17252A;
-}
-
-.contact li a{
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px 10px;
-    font-size: 25px;
-    color: #def2f1;
-}
-
-.widget{
-    text-align: center;
-    top: 20px;
-    position: relative;
-}
-
-.servinfo{
-    text-align: center;
-    position: relative;
-    top: 10px;
-    color: #2b7a78;
-}
-
-.servinfo:hover{
-    color: #def2f1;
-}
-
-.servinfo p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.4rem;
-}
-
-.servinfo p a{
-    color: #def2f1
-}
-
-.inxDD{
-    text-align: center;
-    top: 15px;
-    position: relative;
-}
-
-.tab{
-    color: #def2f1;
-    background-color: #2b7a78;;
-    border: none;
-    outline: none;
-    width: 33.33%;
-    font-size: 17px;
-    padding: 10px 15px;
-    float: left;
-    cursor: pointer;
-}
-
-.tab:hover{
-    background-color: #17252A;
-    color: #def2f1;
-}
-
-.contxd{
-    color: #2b7a78;
-    background-color: #17252A;
-    padding: 100px 20px;
-    height: 100%;
-}
-
-.contxd h1{
-    text-align: center;
-    color: #def2f1;
-    font-size: 2.5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.contxd h1 span{
-    border: 3px dashed #3aafa9;
-    padding: 10px
-}
-
-.contxd h2{
-    text-align: center;
-    color: #2b7a78;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.contxd a{
-    text-align: center;
-    text-decoration: none;
-    color: #def2f1;
-}
-
-.contxd a img{
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    position: relative;
-    left: 500px;
-}
-
-.contxd h3{
-    text-align: center;
-}
-
-.talentedinfo{
-    text-align: center;
-}
-
-.status{
-    text-align: center;
-    position: relative;
-    top: 20px;
-}
-
-.status table{
-    padding: 5px 10px;
-    border: 2px solid #17252A;
-    border-spacing: 10px;
-}
-
-.status table th{
-    padding: 5px 10px;
-    border: 2px solid #17252A;
-    font-size: 1.5rem;
-}
-
-.status table td{
-    padding: 5px 10px;
-    font-size: 2rem;
-    border: 2px solid #17252A;
-}
-
-.status table td a{
-    color: #17252A;
-}
-
-.info{
-    text-align: center;
-    top: 10px;
-    position: relative;
-    font-size: 2.3rem;
-    color: #17252A;
-}
-
-.info a{
+footer a{
     color: #2b7a78;
     text-decoration: none;
 }
-
-
-/*
-.btnxD{
-    font-size: 1.5rem;
-    border: 2px solid #def2f1;
-    background-color: #17252A;
-    color: #2b7a78;
-    outline: none;
-    text-align: center;
-    margin: 2px;
-    padding: 10px 10px;
-    border-radius: 50%;
-}
-
-#toshow1{
-    visibility: hidden;
-    margin-left: -125px;
-    min-width: 250px;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 17px;
-    color: #2b7a78;
-    background-color: #17252A;
-}
-
-#toshow2{
-    visibility: hidden;
-    margin-left: -125px;
-    min-width: 250px;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 17px;
-    color: #2b7a78;
-    background-color: #17252A;
-}
-
-#toshow3{
-    visibility: hidden;
-    margin-left: -125px;
-    min-width: 250px;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 17px;
-    color: #2b7a78;
-    background-color: #17252A;
-}
-
-#toshow4{
-    visibility: hidden;
-    margin-left: -125px;
-    min-width: 250px;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 17px;
-    color: #2b7a78;
-    background-color: #17252A;
-}
-
-#toshow1 .show{
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    
-}
-
-#toshow2 .show{
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    
-}
-
-#toshow3 .show{
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    
-}
-
-
-#toshow4 .show{
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    animation: fadein 0.5s, fadeot 0.5s 2.5s;
-    
-}
-
-@-webkit-keyframes fadein{
-    from{
-        bottom: 0;
-        opacity: 0;
-    }
-    to{
-        bottom: 30px;
-        opacity: 1;
-    }
-}
-
-@keyframes fadein{
-    from{
-        bottom: 0;
-        opacity: 0;
-    }
-    to{
-        bottom: 30px;
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeout {
-    from{bottom: 30px;
-         opacity: 1;
-    } 
-    to{
-        bottom: 0;
-        opacity: 0;
-    }
-}
-
-@keyframes fadeout {
-    from{bottom: 30px;
-        opacity: 1;
-    }
-    to{
-        bottom: 0;
-        opacity: 0;
-        }
-}
-
-*/
