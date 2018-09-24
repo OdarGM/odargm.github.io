@@ -1,0 +1,588 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+
+/*
+-----600PX-----
+*/
+
+@media screen and (max-width: 600px){
+    .nav a:not(:first-child), .drpdown .drpBtn{
+        display: none
+    }
+    .nav a.menuIcon{
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .nav.mobile{
+        position: relative;
+    }
+    .nav.mobile .menuIcon{
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .nav.mobile a{
+        text-align: left;
+        display: block;
+        float: none;
+    }
+    .nav.mobile .drpdown{
+        float: none;
+    }
+    .nav.mobile .drpdown .drpBtn{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .nav.mobile .inDrop{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .intro h1 span{
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .intro h3{
+        font-size: 20px
+    }
+    .intro h4{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .things table{
+        width: 250px;
+        height: 200px;
+    }
+
+    .things td{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .workie h1{
+        font-size: 2rem;
+    }
+
+    .workie h4{
+        font-size: 1.5rem;
+    }
+
+    .workie h5{
+        font-size: 1.3rem;
+    }
+
+    .workie h6{
+        font-size: 1.2rem;
+    }
+
+    .workie p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .footer{
+        width: 100%;
+        background-color: #222629;
+        padding: 15px 0px;
+        position: relative;
+        top: 100px
+    }
+    
+    .footer section{
+        display: inline-block;
+        width: 100%
+    }
+
+    .footer section .footer-one{
+        margin: 50px;
+    }
+  
+    .footer section .footer-one h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-one li{
+        display: block;
+    }
+    
+    .footer section .footer-one li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+           
+    .footer section .footer-two{
+        margin: 50px;
+    }
+
+    .footer section .footer-two h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-two li{
+        display: block;
+    }
+    
+    .footer section .footer-two li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .footer section .footer-three{
+        margin: 50px;
+    }
+    
+    .footer section .footer-three h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-three li{
+        display: block;
+    }
+    
+    .footer section .footer-three li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .footer section .footer-four{
+        margin: 50px;
+    }
+    
+    .footer section .footer-four h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-four li{
+        display: block;
+    }
+    
+    .footer section .footer-four li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .dntpgcnt img{
+        top: 50px;
+        position: relative;
+        width: 125px;
+        height: 125px;
+        display: block;
+        margin: auto
+    }
+
+    .dntpgcnt h3{
+        font-size: 20px;
+        position: relative;
+        top: 55px
+    }
+
+    .dntpgcnt h4{
+        font-size: 19px;
+        position: relative;
+        top: 60px
+    }
+}
+
+/*
+-----800PX-----
+*/
+
+@media screen and (max-width: 800px){
+    .nav a:not(:first-child), .drpdown .drpBtn{
+        display: none
+    }
+    .nav a.menuIcon{
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nav.mobile{
+        position: relative;
+    }
+    .nav.mobile .menuIcon{
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .nav.mobile a{
+        text-align: left;
+        display: block;
+        float: none;
+    }
+    .nav.mobile .drpdown{
+        float: none;
+    }
+    .nav.mobile .drpdown .drpBtn{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .nav.mobile .inDrop{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .intro h1 span{
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .intro h3{
+        font-size: 20px
+    }
+    .intro h4{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .things table{
+        width: 250px;
+        height: 200px;
+    }
+
+    .things td{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .workie h1{
+        font-size: 2rem;
+    }
+
+    .workie h4{
+        font-size: 1.5rem;
+    }
+
+    .workie h5{
+        font-size: 1.3rem;
+    }
+
+    .workie h6{
+        font-size: 1.2rem;
+    }
+
+    .workie p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .footer{
+        width: 100%;
+        background-color: #222629;
+        padding: 15px 0px;
+        position: relative;
+        top: 100px
+    }
+    
+    .footer section{
+        display: inline-block;
+        width: 100%
+    }
+
+    .footer section .footer-one{
+        margin: 50px;
+    }
+  
+    .footer section .footer-one h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-one li{
+        display: block;
+    }
+    
+    .footer section .footer-one li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+           
+    .footer section .footer-two{
+        margin: 50px;
+    }
+
+    .footer section .footer-two h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-two li{
+        display: block;
+    }
+    
+    .footer section .footer-two li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .footer section .footer-three{
+        margin: 50px;
+    }
+    
+    .footer section .footer-three h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-three li{
+        display: block;
+    }
+    
+    .footer section .footer-three li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .footer section .footer-four{
+        margin: 50px;
+    }
+    
+    .footer section .footer-four h1{
+        color: #86c232;
+        margin-bottom: 30px;
+    }
+    
+    .footer section .footer-four li{
+        display: block;
+    }
+    
+    .footer section .footer-four li a{
+        text-decoration: none;
+        color: #6b6e70;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .dntpgcnt{
+        padding: 20px 1px
+    }
+
+    .dntpgcnt img{
+        position: relative;
+        width: 140px;
+        height: 140px;
+        display: block;
+        bottom: 60px
+    }
+
+    .dntpgcnt h3{
+        font-size: 18px;
+        margin-top: 80px 
+    }
+
+    .dntpgcnt h4{
+        font-size: 17px;
+    }
+}
+
+/*
+-----992PX-----
+
+*/
+
+
+@media screen and (max-width: 992px){
+    .nav a:not(:first-child), .drpdown .drpBtn{
+        display: none
+    }
+    .nav a.menuIcon{
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .nav.mobile{
+        position: relative;
+    }
+    .nav.mobile .menuIcon{
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .nav.mobile a{
+        text-align: left;
+        display: block;
+        float: none;
+    }
+    .nav.mobile .drpdown{
+        float: none;
+    }
+    .nav.mobile .drpdown .drpBtn{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .nav.mobile .inDrop{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    .intro h1 span{
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .intro h3{
+        font-size: 20px
+    }
+    .intro h4{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+
+    .things table{
+        width: 250px;
+        height: 200px;
+    }
+
+    .things td{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+
+    .workie h1{
+        font-size: 2rem;
+    }
+
+    .workie h4{
+        font-size: 1.5rem;
+    }
+
+    .workie h5{
+        font-size: 1.3rem;
+    }
+
+    .workie h6{
+        font-size: 1.2rem;
+    }
+
+    .workie p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .dntpgcnt{
+        padding: 20px 1px
+    }
+
+    .dntpgcnt img{
+        position: relative;
+        width: 140px;
+        height: 140px;
+        display: block;
+        bottom: 60px
+    }
+
+    .dntpgcnt h3{
+        font-size: 24px;
+        margin-top: 80px 
+    }
+
+    .dntpgcnt h4{
+        font-size: 22px;
+    }
+}
+  
+
+/* 
+
+-----1281PX-----
+
+*/
+
+@media screen and (max-width: 1281px){
+
+    .things table{
+        width: 700px;
+        height: 450px;
+    }
+
+    .things td{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 1281px){
+    .dntpgcnt{
+        padding: 20px 1px
+    }
+
+    .dntpgcnt img{
+        position: relative;
+        width: 140px;
+        height: 140px;
+        display: block;
+        bottom: 60px
+    }
+
+    .dntpgcnt h3{
+        font-size: 35px;
+        margin-top: 80px 
+    }
+
+    .dntpgcnt h4{
+        font-size: 33px;
+    }
+}

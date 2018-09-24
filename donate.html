@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Odar | Donate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="responsive.css" />
+    <link rel="icon" href="https://media.odar.xyz/logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="https://meida.odar.xyz/logo.ong" type="image/gif" sizes="32/32">
+    <link rel="icon" href="https://media.odar.xyz/logo.png" type="image/png" sizes="196x196" /> 
+    <link rel="icon" href="https://media.odar.xyz/logo.png" type="image/png" sizes="96x96" />
+    <link rel="icon" href="https://media.odar.xyz/logo.png" type="image/png" sizes="128x128" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <meta property="og:title" content="Odar.xyz" />
+    <meta property="og:url" content="https://www.odar.xyz/donate"/>
+    <meta property="og:description" content="Odat's Donate Page">
+    <meta property="og:image" content="https://media.odar.xyz/logo.png" />
+    <meta name="description" content="Welcome to odar.xyz" />
+    <meta name="keywords" content="Odar, odarbot, odarbot, discord, steam, donate, github, odararmy ,odar.xyz, odar site, odargm, odargm site" />
+    <meta name="author" content="Odar" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://media.odar.xyz/logo.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://media.odar.xyz/logo.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://media.odar.xyz/logo.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ahttps://media.odar.xyz/logo.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://media.odar.xyz/logo.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://media.odar.xyz/logo.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://media.odar.xyz/logo.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://media.odar.xyz/logo.png" />
+</head>
+<body>
+    <body onload="donateWriter()">
+    <div class="nav" id="navBar">
+        <a href="index.html"><img class="logo" src="https://media.odar.xyz/logo.png" width="35" height="35"></a>
+        <a href="index.html">Home</a>
+        <a href="server.html">Server</a>
+        <div class="drpdown">
+            <button class="drpBtn">Projects <i class="fa fa-caret-down"></i></button>
+            <div class="inDrop">
+                <a target="_blank" href="./links/odarbot.html">OdarBot</a>
+                <a target="_blank" href="./links/easydiscordprc.html">EasyDiscordRpc</a>
+                <!-- <a href="./links/lolping.html">Lol Ping</a> -->
+            </div>
+        </div>
+        <a href="donate.html">Donate</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="menuIcon" onclick="dropDown()">&#9776;</a>
+    </div>
+    <header>
+        <br> <!--I USE BR CUZ I WANT TO -_- -->
+        <br> <!--I USE BR CUZ I WANT TO -_- -->
+        <h1 id="donatewriter" class="typewriter"></h1>
+        <br> <!--I USE BR CUZ I WANT TO -_- -->
+        <h3>Some random guy</h3>
+        <br>
+    </header>
+    <div class="intro">
+        <h1><span>Donate</span></h1>
+        <br>
+        <h3>By donating me you are suppoting me and all my <b>projects</b></h3>
+        <h4>You will also get <b>Donator</b> role in my <a href="server.html" target="_blank">Server</a></h4>
+        <br>
+    </div>
+    <div class="donate">
+        <br>
+        <button class="tabBtn" id="openTabie" onclick="DntSwitch(`PayPal`, this)">PayPal</button>
+        <button class="tabBtn" onclick="DntSwitch(`Patreon`, this)">Patreon</button>
+        <div id="PayPal" class="dntpgcnt">
+            <h1>PayPal Donate</h1>
+            <h2><span><p><a target="_blank" href="./links/paypal.html">DONATE</a></p></span></h2>
+            <img src="./Images/paypal.png" alt="PayPal logo" width="200px" height="200px">
+            <h3>By donating in me in <a href="./links/paypal.html" target="_blank">PayPal</a> you are helping me and my projects</h3>
+            <h4>Make sure to put you Discord <b>ID</b> or <b>Name#Discrim</b></h4>
+            <h4>in the note to get Donator role in the discord server</h4>
+        </div>
+        <div id="Patreon" class="dntpgcnt">
+            <h1>Patreon Donate</h1>
+            <h2><span><p><a target="_blank" href="./links/patreon.html">DONATE</a></p></span></h2>
+            <img src="./Images/patreon.png" alt="Patreon logo" width="200px" height="200px">
+            <h3>By donating me in <a target="_blank" href="./links/patreon.html">Patreon</a> you are helping me and my projects</h3>
+            <h4>You will aslo get <b>Donator</b> and <b>Patreon</b> role in </h4>
+            <h4>my server if your Discord is connected to your Patreon</h4>
+        </div>
+    </div>
+    <div class="footer">
+        <section>
+            <div class="footer-one">
+                <h1>Links</h1>
+                <ul>
+                    <li><a target="_balnk" href="https://odararmy.js.org"><i class="fas fa-globe"></i> Odar Army</a></li>
+                    <li><a target="_blank" href="https://media.odar.xyz"><i class="fas fa-globe"></i> Media</a></li>
+                    <li><a target="_blank" href="https://bot.odar.xyz"><i class="fas fa-globe"></i> OdarBot</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="footer-two">
+                <h1>Contact</h1>
+                <ul>
+                    <li><a target="_balnk" href="./links/discord.html"><i id="discord-i" class="fab fa-discord"></i> Discord</a></li>
+                    <li><a href="mailto:suppot@odar.xyz"><i id="email-i" class="fas fa-envelope"></i> Email</a></li>
+                    <li><a target="_blank" href="./links/twitter.html"><i id="twitter-i" class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="footer-three">
+                <h1>Social</h1>
+                <ul>
+                    <li><a target="_balnk" href="./links/twitter"><i id="twitter-i" class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a target="_balnk" href="./links/discord.html"><i id="discord-i" class="fab fa-discord"></i> Discord</a></li>
+                    <li><a target="_balnk" href="./links/steam.html"><i id="steam-i" class="fab fa-steam"></i> Steam</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="footer-four">
+                <h1>Other</h1>
+                <ul>
+                    <li><a target="_blank" href="https://refs.odar.xyz"><i id="plus-i" class="fa fa-plus-circle"></i> Referals</a></li>
+                    <li><a target="_blank" href="#">&nbsp;</a></li>
+                    <li><a target="_blank" href="#">&nbsp;</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <a href="#" id="toTop" style="display:none"><span></span></a>
+<footer>
+    <ul>
+        <li>&copy; <a href="https://odar.xyz">Odar</a></li><li>2018</a></li>
+    </ul>
+</footer>
+<br>
+<script>
+    document.getElementById("openTabie").click()
+</script>
+</body>
+</html>
