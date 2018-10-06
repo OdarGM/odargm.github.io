@@ -4,13 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Anonymous Pro', monospace;
+    transition: all 300ms ease-in-out;
+    list-style: none;
 }
 
 body{
     background: #222629;
     background-size: cover
 }
-
+a:hover {
+}
 footer {
     text-align: center;
     padding-top: 6em;
@@ -126,7 +130,6 @@ footer a:hover {
 }
 
 header h1{
-    font-family: 'Anonymous Pro', monospace;
     position: relative;
     text-align: center;
     color: #61892f;
@@ -141,42 +144,13 @@ header h3{
 
 .intro{
     text-align: center;
-}
-
-.intro h1{
-    color: #86c232;
-    font-family: Arial, Helvetica, sans-serif;
-    font-variant: small-caps;
-    font-weight: 700;
-    font-size: 2.7rem
-}
-
-.intro h1 span{
-    border: 2px dashed #474b4f;
-    padding: 10px 20px;
-}
-
-.intro h3{
     color: #6b6e70;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold
 }
-
 .intro h3 a{
-    color: #6b6e70;
-    text-decoration: none;
+    color: #d3d3d3;
 }
-
-.intro h4{
-    font-size: 1.9rem;
-    color: #6b6e70;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.intro h4 a{
-    color: #6b6e70;
-    text-decoration: none;
+.intro h3 a:hover {
+    color: white;
 }
 
 .things h1{
@@ -229,17 +203,13 @@ header h3{
     font-size: 20px;
 }
 
-.things .tabtitle{
-    font-size: 30px;
-}
-
 .things td a{
     color: #474b4f;
     text-decoration: none;
 }
 
 .workie{
-    background-color: #222629; /*6b6e70*/
+    background-color: #222629;
     position: relative;
     top: 50px;
     width: 100%;
@@ -249,18 +219,11 @@ header h3{
 .workie h1{
     text-align: center;
     color: #86c232;
-    font-family: Arial, Helvetica, sans-serif;
-    font-variant: small-caps;
-    font-weight: 700;
-    font-size: 2.5rem
 }
 
 .workie h4{
     text-align: center;
-    color: #6b6e70; /*222629*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-variant: small-caps;
-    font-size: 2.3rem
+    color: #6b6e70;
 }
 
 .workie h4 a{
@@ -270,24 +233,18 @@ header h3{
 
 .workie h5{
     text-align: center;
-    color: #6b6e70; /*222629*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.2rem
+    color: #6b6e70;
 }
 
 .workie h6{
     text-align: center;
-    color: #6b6e70; /*222629*/
-    font-size: 2.3rem;
-    /*text-shadow: 2px 3px #86c232*/
+    color: #6b6e70;
 }
 
 .workie p{
     display: block;
-    color: #6b6e70; /*222629*/
-    font-size: 2rem;
+    color: #6b6e70;
     text-align: center;
-    font-weight: bold;
 }
 
 .workie p:last-child{
@@ -300,122 +257,25 @@ header h3{
 }
 
 .footer{
-    width: 100%;
-    background-color: #222629;
     padding: 15px 0px;
     position: relative;
-    top: 100px
+    top: 100px;
+    width: 800px;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 .footer section{
     display: inline-block;
     width: 24%
 }
-
-.footer section .footer-one{
-    margin: 50px;
+.footer section h1 {
+    color: white !important;
+    margin: 0 0 20px 0
 }
-
-.footer section .footer-one h1{
-    color: #86c232;
-    margin-bottom: 30px;
-}
-
-.footer section .footer-one li{
-    display: block;
-}
-
-.footer section .footer-one li a{
+.footer section li a{
     text-decoration: none;
-    color: #6b6e70;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.footer section .footer-one li a i{
-    color: #61892f;
-}
-
-.footer section .footer-two{
-    margin: 50px;
-}
-
-.footer section .footer-two h1{
-    color: #86c232;
-    margin-bottom: 30px;
-}
-
-.footer section .footer-two li{
-    display: block;
-}
-
-.footer section .footer-two li a{
-    text-decoration: none;
-    color: #6b6e70;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.footer section .footer-two li #discord-i{
-    color: #7289DA
-}
-
-.footer section .footer-two li #email-i{
-    color: #FFFFFF;
-}
-
-.footer section .footer-two li #twitter-i{
-    color: #1da1f2;
-}
-
-.footer section .footer-three{
-    margin: 50px;
-}
-
-.footer section .footer-three h1{
-    color: #86c232;
-    margin-bottom: 30px;
-}
-
-.footer section .footer-three li{
-    display: block;
-}
-
-.footer section .footer-three li a{
-    text-decoration: none;
-    color: #6b6e70;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.footer section .footer-three li #discord-i{
-    color: #7289DA
-}
-
-.footer section .footer-three li #twitter-i{
-    color: #1da1f2;
-}
-
-.footer section .footer-three li #steam-i{
-    color: #1d1d1d
-}
-
-.footer section .footer-four{
-    margin: 50px;
-}
-
-.footer section .footer-four h1{
-    color: #86c232;
-    margin-bottom: 30px;
-}
-
-.footer section .footer-four li{
-    display: block;
-}
-
-.footer section .footer-four li a{
-    text-decoration: none;
-    color: #6b6e70;
+    color: #d3d3d3;
     font-size: 18px;
     font-weight: bold;
 }
